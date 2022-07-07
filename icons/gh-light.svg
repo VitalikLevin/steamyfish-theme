@@ -1,0 +1,8 @@
+<svg version='1.1' fill="none" stroke="#121212"
+  viewbox='0 0 16 16'
+  xmlns='http://www.w3.org/2000/svg'>
+  <title>GitHub Folder (Light)</title>
+  <circle cx="8" cy="9" r="5"/>
+	<polyline points="3 8, 3 2, 7 5"/>
+	<polyline points="13 8, 13 2, 9 5"/>
+</svg>

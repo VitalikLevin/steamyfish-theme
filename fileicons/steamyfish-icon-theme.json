@@ -1,0 +1,86 @@
+{
+  "iconDefinitions": {
+    "doc-dark": {
+      "iconPath": "../icons/doc-dark.svg"
+    },
+    "doc-light": {
+      "iconPath": "../icons/doc-light.svg"
+    },
+    "folder-dark": {
+      "iconPath": "../icons/folder-dark.svg"
+    },
+    "folder-light": {
+      "iconPath": "../icons/folder-light.svg"
+    },
+    "folder-open-dark": {
+      "iconPath": "../icons/folder-open-dark.svg"
+    },
+    "folder-open-light": {
+      "iconPath": "../icons/folder-open-light.svg"
+    },
+    "root-dark": {
+      "iconPath": "../icons/root-dark.svg"
+    },
+    "root-light": {
+      "iconPath": "../icons/root-light.svg"
+    },
+    "root-open-dark": {
+      "iconPath": "../icons/root-open-dark.svg"
+    },
+    "root-open-light": {
+      "iconPath": "../icons/root-open-light.svg"
+    },
+    "vscode-dark": {
+      "iconPath": "../icons/vscode-dark.svg"
+    },
+    "vscode-light": {
+      "iconPath": "../icons/vscode-light.svg"
+    },
+    "vs-dark": {
+      "iconPath": "../icons/vs-dark.svg"
+    },
+    "vs-light": {
+      "iconPath": "../icons/vs-light.svg"
+    },
+    "gh-dark": {
+      "iconPath": "../icons/gh-dark.svg"
+    },
+    "gh-light": {
+      "iconPath": "../icons/gh-light.svg"
+    }
+  },
+  "file": "doc-dark",
+  "folder": "folder-dark",
+  "folderExpanded": "folder-open-dark",
+  "rootFolder": "root-dark",
+  "rootFolderExpanded": "root-open-dark",
+  "folderNames": {
+    ".vs": "vs-dark",
+    ".vscode": "vscode-dark",
+    ".github": "gh-dark"
+  },
+  "folderNamesExpanded": {
+    ".vs": "vs-dark",
+    ".vscode": "vscode-dark",
+    ".github": "gh-dark"
+  },
+  "light": {
+    "file": "doc-light",
+    "folder": "folder-light",
+    "folderExpanded": "folder-open-light",
+    "rootFolder": "root-light",
+    "rootFolderExpanded": "root-open-light",
+    "folderNames": {
+      ".vs": "vs-light",
+      ".vscode": "vscode-light",
+      ".github": "gh-light"
+    },
+    "folderNamesExpanded": {
+      ".vs": "vs-light",
+      ".vscode": "vscode-light",
+      ".github": "gh-light"
+    }
+  },
+  "highContrast": {},
+  "hidesExplorerArrows": true
+}

@@ -1,0 +1,26 @@
+{
+  "name": "steamyfish",
+  "displayName": "Steamy Fish",
+  "description": "%main.description%",
+  "publisher": "networkworms",
+  "version": "0.1.0",
+  "license": "MIT",
+  "categories": ["Themes", "Other"],
+  "icon": "./assets/icon.png",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "steamyfish-theme",
+        "label": "Steamy Fish",
+        "path": "./fileicons/steamyfish-icon-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VitalikLevin/steamyfish-theme.git"
+  }
+}
