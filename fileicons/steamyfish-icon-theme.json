@@ -47,6 +47,12 @@
     },
     "gh-light": {
       "iconPath": "../icons/gh-light.svg"
+    },
+    "ignore-dark": {
+      "iconPath": "../icons/ignore-dark.svg"
+    },
+    "ignore-light": {
+      "iconPath": "../icons/ignore-light.svg"
     }
   },
   "file": "doc-dark",
@@ -64,6 +70,10 @@
     ".vscode": "vscode-dark",
     ".github": "gh-dark"
   },
+  "fileExtensions": {
+    "gitignore": "ignore-dark",
+    "vscodeignore": "ignore-dark"
+  },
   "light": {
     "file": "doc-light",
     "folder": "folder-light",
@@ -79,6 +89,10 @@
       ".vs": "vs-light",
       ".vscode": "vscode-light",
       ".github": "gh-light"
+    },
+    "fileExtensions": {
+      "gitignore": "ignore-light",
+      "vscodeignore": "ignore-light"
     }
   },
   "highContrast": {},
