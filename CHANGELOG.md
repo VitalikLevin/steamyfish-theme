@@ -14,8 +14,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 -->
-
-## [0.1.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.1.0) - 2022-07-07
+## [0.2.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.2.0)
+> Release Date: 2022-07-10
 ### Added
-- Folder Icons: VS Code, Visual Studio, GitHub and Root Folder
+- File Icons: Archive, Git, License and robots.txt
+- Folder Icons: Git, IntelliJ IDEA and Node.js
+
+## [0.1.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.1.0)
+> Release Date: 2022-07-07
+### Added
 - File Icons: Default and Ignore
+- Folder Icons: VS Code, Visual Studio, GitHub and Root Folder

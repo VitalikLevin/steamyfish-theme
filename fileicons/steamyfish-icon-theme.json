@@ -53,6 +53,42 @@
     },
     "ignore-light": {
       "iconPath": "../icons/ignore-light.svg"
+    },
+    "archive-dark": {
+      "iconPath": "../icons/archive-dark.svg"
+    },
+    "archive-light": {
+      "iconPath": "../icons/archive-light.svg"
+    },
+    "git-dark": {
+      "iconPath": "../icons/git-dark.svg"
+    },
+    "git-light": {
+      "iconPath": "../icons/git-light.svg"
+    },
+    "license-dark": {
+      "iconPath": "../icons/license-dark.svg"
+    },
+    "license-light": {
+      "iconPath": "../icons/license-light.svg"
+    },
+    "nodejs-dark": {
+      "iconPath": "../icons/nodejs-dark.svg"
+    },
+    "nodejs-light": {
+      "iconPath": "../icons/nodejs-light.svg"
+    },
+    "idea-dark": {
+      "iconPath": "../icons/idea-dark.svg"
+    },
+    "idea-light": {
+      "iconPath": "../icons/idea-light.svg"
+    },
+    "robots-dark": {
+      "iconPath": "../icons/robots-dark.svg"
+    },
+    "robots-light": {
+      "iconPath": "../icons/robots-light.svg"
     }
   },
   "file": "doc-dark",
@@ -60,19 +96,42 @@
   "folderExpanded": "folder-open-dark",
   "rootFolder": "root-dark",
   "rootFolderExpanded": "root-open-dark",
+  "fileExtensions": {
+    "7z": "archive-dark",
+    "gitattributes": "git-dark",
+    "gitignore": "ignore-dark",
+    "gz": "archive-dark",
+    "rar": "archive-dark",
+    "vscodeignore": "ignore-dark",
+    "zip": "archive-dark"
+  },
+  "fileNames": {
+    "copying": "license-dark",
+    "copying.md": "license-dark",
+		"copying.txt": "license-dark",
+		"licence": "license-dark",
+    "licence.md": "license-dark",
+    "licence.txt": "license-dark",
+    "license": "license-dark",
+		"license.md": "license-dark",
+    "license.txt": "license-dark",
+    "robots.txt": "robots-dark"
+  },
   "folderNames": {
+    ".git": "git-dark",
+    ".github": "gh-dark",
+    ".idea": "idea-dark",
+    "node_modules": "nodejs-dark",
     ".vs": "vs-dark",
-    ".vscode": "vscode-dark",
-    ".github": "gh-dark"
+    ".vscode": "vscode-dark"
   },
   "folderNamesExpanded": {
+    ".git": "git-dark",
+    ".github": "gh-dark",
+    ".idea": "idea-dark",
+    "node_modules": "nodejs-dark",
     ".vs": "vs-dark",
-    ".vscode": "vscode-dark",
-    ".github": "gh-dark"
-  },
-  "fileExtensions": {
-    "gitignore": "ignore-dark",
-    "vscodeignore": "ignore-dark"
+    ".vscode": "vscode-dark"
   },
   "light": {
     "file": "doc-light",
@@ -80,19 +139,42 @@
     "folderExpanded": "folder-open-light",
     "rootFolder": "root-light",
     "rootFolderExpanded": "root-open-light",
+    "fileExtensions": {
+      "7z": "archive-light",
+      "gitattributes": "git-light",
+      "gitignore": "ignore-light",
+      "gz": "archive-light",
+      "rar": "archive-light",
+      "vscodeignore": "ignore-light",
+      "zip": "archive-light"
+    },
+    "fileNames": {
+      "copying": "license-dark",
+      "copying.md": "license-dark",
+		  "copying.txt": "license-dark",
+		  "licence": "license-dark",
+      "licence.md": "license-dark",
+      "licence.txt": "license-dark",
+      "license": "license-dark",
+		  "license.md": "license-dark",
+      "license.txt": "license-dark",
+      "robots.txt": "robots-light"
+    },
     "folderNames": {
+      ".git": "git-light",
+      ".github": "gh-light",
+      ".idea": "idea-light",
+      "node_modules": "nodejs-light",
       ".vs": "vs-light",
-      ".vscode": "vscode-light",
-      ".github": "gh-light"
+      ".vscode": "vscode-light"
     },
     "folderNamesExpanded": {
+      ".git": "git-light",
+      ".github": "gh-light",
+      ".idea": "idea-light",
+      "node_modules": "nodejs-light",
       ".vs": "vs-light",
-      ".vscode": "vscode-light",
-      ".github": "gh-light"
-    },
-    "fileExtensions": {
-      "gitignore": "ignore-light",
-      "vscodeignore": "ignore-light"
+      ".vscode": "vscode-light"
     }
   },
   "highContrast": {},

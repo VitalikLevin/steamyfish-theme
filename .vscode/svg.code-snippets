@@ -1,0 +1,32 @@
+{
+	"SVG Element": {
+		"scope": "xml",
+		"prefix": ["svg11", "doctype", "svg1.1"],
+		"body": [
+			"<svg version='1.1'",
+			"\tviewbox='0 0 ${1:16} ${2:16}'",
+			"\txmlns='http://www.w3.org/2000/svg'>",
+			"\t<title>${3:${TM_FILENAME_BASE/[\\-]/ /g}}</title>",
+			"</svg>"
+		],
+		"description": "Doctype for .svg files"
+	},
+	"Fill Property": {
+		"scope": "xml",
+		"prefix": ["fill", "svgfill"],
+		"body": "fill='${1|none,#121212,#f4f4f4|}'",
+		"description": "Fill Property for a part of a image"
+	},
+	"Stroke Property": {
+		"scope": "xml",
+		"prefix": ["stroke", "svgstroke"],
+		"body": "stroke='${1|#121212,#f4f4f4|}'",
+		"description": "Stroke Property for an element"
+	},
+	"Stroke Width": {
+		"scope": "xml",
+		"prefix": [""],
+		"body": "stroke-width='${1:1}'",
+		"description": "Stroke-Width Property for a figure"
+	}
+}

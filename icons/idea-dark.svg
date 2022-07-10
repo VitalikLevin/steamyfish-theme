@@ -1,0 +1,12 @@
+<svg version='1.1' fill='none' 
+  viewbox='0 0 16 16'
+	xmlns='http://www.w3.org/2000/svg'>
+  <title>IntelliJ IDEA Folder (Dark)</title>
+	<rect x="1" y="1" stroke='#f4f4f4'
+		width="14" height="14"/>
+	<g fill='#f4f4f4'>
+		<polygon points="3 3, 5 3, 5 8, 3 8, 3 3"/>
+		<polygon points="10 3, 10 8, 6 8, 6 6, 8 6, 8 3, 10 3"/>
+		<rect x="3" y="11" width="5" height="2"/>
+	</g>
+</svg>
