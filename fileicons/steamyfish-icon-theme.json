@@ -99,6 +99,7 @@
   "fileExtensions": {
     "7z": "archive-dark",
     "gitattributes": "git-dark",
+    "gitconfig": "git-dark",
     "gitignore": "ignore-dark",
     "gz": "archive-dark",
     "rar": "archive-dark",
@@ -142,6 +143,7 @@
     "fileExtensions": {
       "7z": "archive-light",
       "gitattributes": "git-light",
+      "gitconfig": "git-light",
       "gitignore": "ignore-light",
       "gz": "archive-light",
       "rar": "archive-light",

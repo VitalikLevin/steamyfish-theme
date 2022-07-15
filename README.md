@@ -11,7 +11,7 @@
   Steamy Fish
 </h1>
 <h4 align="center">
-  Available in Visual Studio Marketplace
+  An icon theme that uses only two colors: Black and White
 </h4>
 <div align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish">
