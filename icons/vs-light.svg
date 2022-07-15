@@ -1,6 +1,6 @@
-<svg version='1.1' fill="none"
-  viewbox='0 0 16 16'
-  xmlns='http://www.w3.org/2000/svg'>
+<svg version="1.1" fill="none"
+  viewbox="0 0 16 16"
+  xmlns="http://www.w3.org/2000/svg">
   <title>Visual Studio Folder (Light)</title>
   <polyline stroke="#121212" stroke-width="1"
     points="4 11, 12 2, 15 2, 15 14, 12 14, 4 5, 4 11"/>

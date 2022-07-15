@@ -1,7 +1,7 @@
-<svg version='1.1' fill="none"
-  viewbox='0 0 16 16'
-  xmlns='http://www.w3.org/2000/svg'>
-  <title>Vscode Folder (Light)</title>
+<svg version="1.1" fill="none"
+  viewbox="0 0 16 16"
+  xmlns="http://www.w3.org/2000/svg">
+  <title>VS Code Folder (Light)</title>
   <polyline stroke="#121212"
     points="3 11, 13 2, 15 2, 15 14, 13 14, 3 5"/>
 </svg>
