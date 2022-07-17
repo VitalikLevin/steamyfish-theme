@@ -14,6 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 -->
+## [0.2.1](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.2.1)
+> Release Date: 2022-07-17
+### Added
+- Icons for extensions: `gitmodules`, `npmignore` and `vsix`
+
 ## [0.2.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.2.0)
 > Release Date: 2022-07-10
 ### Added

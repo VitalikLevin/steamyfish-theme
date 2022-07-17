@@ -101,9 +101,12 @@
     "gitattributes": "git-dark",
     "gitconfig": "git-dark",
     "gitignore": "ignore-dark",
+    "gitmodules": "git-dark",
     "gz": "archive-dark",
+    "npmignore": "ignore-dark",
     "rar": "archive-dark",
     "vscodeignore": "ignore-dark",
+    "vsix": "vs-dark",
     "zip": "archive-dark"
   },
   "fileNames": {
@@ -145,9 +148,12 @@
       "gitattributes": "git-light",
       "gitconfig": "git-light",
       "gitignore": "ignore-light",
+      "gitmodules": "git-light",
       "gz": "archive-light",
+      "npmignore": "ignore-light",
       "rar": "archive-light",
       "vscodeignore": "ignore-light",
+      "vsix": "vs-light",
       "zip": "archive-light"
     },
     "fileNames": {

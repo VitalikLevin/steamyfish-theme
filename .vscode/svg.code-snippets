@@ -1,7 +1,7 @@
 {
 	"SVG Element": {
 		"scope": "xml",
-		"prefix": ["svg11", "doctype", "svg1.1"],
+		"prefix": ["svg11", "svg1.1"],
 		"body": [
 			"<svg version=\"1.1\"",
 			"\tviewbox=\"0 0 ${1:16} ${2:16}\"",
@@ -25,7 +25,7 @@
 	},
 	"Stroke Width": {
 		"scope": "xml",
-		"prefix": [""],
+		"prefix": ["strkwidth", "strokewidth"],
 		"body": "stroke-width=\"${1:1}\"",
 		"description": "Stroke-Width Property for a figure"
 	}
