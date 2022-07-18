@@ -89,6 +89,12 @@
     },
     "robots-light": {
       "iconPath": "../icons/robots-light.svg"
+    },
+    "image-dark": {
+      "iconPath": "../icons/image-dark.svg"
+    },
+    "image-light": {
+      "iconPath": "../icons/image-light.svg"
     }
   },
   "file": "doc-dark",
@@ -98,15 +104,22 @@
   "rootFolderExpanded": "root-open-dark",
   "fileExtensions": {
     "7z": "archive-dark",
+    "bmp": "image-dark",
+    "gif": "image-dark",
     "gitattributes": "git-dark",
     "gitconfig": "git-dark",
     "gitignore": "ignore-dark",
     "gitmodules": "git-dark",
     "gz": "archive-dark",
+    "ico": "image-dark",
+    "jpg": "image-dark",
+    "jpeg": "image-dark",
     "npmignore": "ignore-dark",
+    "png": "image-dark",
     "rar": "archive-dark",
     "vscodeignore": "ignore-dark",
     "vsix": "vs-dark",
+    "webp": "image-dark",
     "zip": "archive-dark"
   },
   "fileNames": {
@@ -145,15 +158,21 @@
     "rootFolderExpanded": "root-open-light",
     "fileExtensions": {
       "7z": "archive-light",
+      "bmp": "image-light",
+      "gif": "image-light",
       "gitattributes": "git-light",
       "gitconfig": "git-light",
       "gitignore": "ignore-light",
       "gitmodules": "git-light",
       "gz": "archive-light",
+      "ico": "image-light",
+      "jpg": "image-light",
+      "jpeg": "image-light",
       "npmignore": "ignore-light",
       "rar": "archive-light",
       "vscodeignore": "ignore-light",
       "vsix": "vs-light",
+      "webp": "image-light",
       "zip": "archive-light"
     },
     "fileNames": {
