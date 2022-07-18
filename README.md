@@ -10,9 +10,9 @@
   <br>
   Steamy Fish
 </h1>
-<h4 align="center">
-  An icon theme that uses only two colors: Black and White
-</h4>
+<p align="center">
+  An icon theme that uses only two colors: <span color="#121212">Black</span> and <span color="#f4f4f4">White</span>
+</p>
 <div align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish">
     <img alt="Version"
