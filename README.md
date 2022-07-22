@@ -5,7 +5,7 @@
     <source media="(prefers-color-scheme: light)"
       srcset="https://raw.githubusercontent.com/VitalikLevin/steamyfish-theme/master/assets/icon-black.png">
     <img alt="Logo" width="128"
-      src="https://raw.githubusercontent.com/VitalikLevin/steamyfish-theme/master/assets/icon-black.png"/>
+      src="https://raw.githubusercontent.com/VitalikLevin/steamyfish-theme/master/assets/icon-black-border.png"/>
   </picture>
   <br>
   Steamy Fish
