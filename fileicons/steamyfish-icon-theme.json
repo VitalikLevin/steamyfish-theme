@@ -95,6 +95,24 @@
     },
     "image-light": {
       "iconPath": "../icons/image-light.svg"
+    },
+    "font-dark": {
+      "iconPath": "../icons/font-dark.svg"
+    },
+    "font-light": {
+      "iconPath": "../icons/font-light.svg"
+    },
+    "office-dark": {
+      "iconPath": "../icons/office-dark.svg"
+    },
+    "office-light": {
+      "iconPath": "../icons/office-light.svg"
+    },
+    "golang-dark": {
+      "iconPath": "../icons/golang-dark.svg"
+    },
+    "golang-light": {
+      "iconPath": "../icons/golang-light.svg"
     }
   },
   "file": "doc-dark",
@@ -105,21 +123,36 @@
   "fileExtensions": {
     "7z": "archive-dark",
     "bmp": "image-dark",
+    "doc": "office-dark",
+    "docx": "office-dark",
+    "eot": "font-dark",
     "gif": "image-dark",
     "gitattributes": "git-dark",
     "gitconfig": "git-dark",
     "gitignore": "ignore-dark",
     "gitmodules": "git-dark",
+    "go": "golang-dark",
     "gz": "archive-dark",
     "ico": "image-dark",
     "jpg": "image-dark",
     "jpeg": "image-dark",
     "npmignore": "ignore-dark",
+    "ooxml": "office-dark",
+    "otf": "font-dark",
     "png": "image-dark",
+    "ppt": "office-dark",
+    "pptx": "office-dark",
     "rar": "archive-dark",
+    "sitemap": "robots-dark",
+    "sln": "vs-dark",
+    "ttf": "font-dark",
     "vscodeignore": "ignore-dark",
     "vsix": "vs-dark",
     "webp": "image-dark",
+    "woff": "font-dark",
+    "woff2": "font-dark",
+    "xls": "office-dark",
+    "xlsx": "office-dark",
     "zip": "archive-dark"
   },
   "fileNames": {
@@ -132,7 +165,12 @@
     "license": "license-dark",
 		"license.md": "license-dark",
     "license.txt": "license-dark",
-    "robots.txt": "robots-dark"
+    "robots.txt": "robots-dark",
+    "sitemap.txt": "robots-dark",
+    "sitemap.xml": "robots-dark",
+    "thirdpartylegalnotices.txt": "license-dark",
+    "thirdpartynotice.txt": "license-dark",
+    "thirdpartynotices.txt": "license-dark"
   },
   "folderNames": {
     ".git": "git-dark",
@@ -159,33 +197,54 @@
     "fileExtensions": {
       "7z": "archive-light",
       "bmp": "image-light",
+      "doc": "office-light",
+      "docx": "office-light",
+      "eot": "font-light",
       "gif": "image-light",
       "gitattributes": "git-light",
       "gitconfig": "git-light",
       "gitignore": "ignore-light",
       "gitmodules": "git-light",
+      "go": "golang-light",
       "gz": "archive-light",
       "ico": "image-light",
       "jpg": "image-light",
       "jpeg": "image-light",
       "npmignore": "ignore-light",
+      "ooxml": "office-light",
+      "otf": "font-light",
+      "png": "image-light",
+      "ppt": "office-light",
+      "pptx": "office-light",
       "rar": "archive-light",
+      "sitemap": "robots-light",
+      "sln": "vs-light",
+      "ttf": "font-light",
       "vscodeignore": "ignore-light",
       "vsix": "vs-light",
       "webp": "image-light",
+      "woff": "font-light",
+      "woff2": "font-light",
+      "xls": "office-light",
+      "xlsx": "office-light",
       "zip": "archive-light"
     },
     "fileNames": {
-      "copying": "license-dark",
-      "copying.md": "license-dark",
-		  "copying.txt": "license-dark",
-		  "licence": "license-dark",
-      "licence.md": "license-dark",
-      "licence.txt": "license-dark",
-      "license": "license-dark",
-		  "license.md": "license-dark",
-      "license.txt": "license-dark",
-      "robots.txt": "robots-light"
+      "copying": "license-light",
+      "copying.md": "license-light",
+		  "copying.txt": "license-light",
+		  "licence": "license-light",
+      "licence.md": "license-light",
+      "licence.txt": "license-light",
+      "license": "license-light",
+		  "license.md": "license-light",
+      "license.txt": "license-light",
+      "robots.txt": "robots-light",
+      "sitemap.txt": "robots-light",
+      "sitemap.xml": "robots-light",
+      "thirdpartylegalnotices.txt": "license-light",
+      "thirdpartynotice.txt": "license-light",
+      "thirdpartynotices.txt": "license-light"
     },
     "folderNames": {
       ".git": "git-light",
