@@ -113,6 +113,12 @@
     },
     "golang-light": {
       "iconPath": "../icons/golang-light.svg"
+    },
+    "config-dark": {
+      "iconPath": "../icons/config-dark.svg"
+    },
+    "config-light": {
+      "iconPath": "../icons/config-light.svg"
     }
   },
   "file": "doc-dark",
@@ -123,8 +129,10 @@
   "fileExtensions": {
     "7z": "archive-dark",
     "bmp": "image-dark",
+    "cfg": "config-dark",
     "doc": "office-dark",
     "docx": "office-dark",
+    "editorconfig": "config-dark",
     "eot": "font-dark",
     "gif": "image-dark",
     "gitattributes": "git-dark",
@@ -134,6 +142,7 @@
     "go": "golang-dark",
     "gz": "archive-dark",
     "ico": "image-dark",
+    "ini": "config-dark",
     "jpg": "image-dark",
     "jpeg": "image-dark",
     "npmignore": "ignore-dark",
@@ -148,6 +157,8 @@
     "ttf": "font-dark",
     "vscodeignore": "ignore-dark",
     "vsix": "vs-dark",
+    "vsixmanifest": "config-dark",
+    "webmanifest": "config-dark",
     "webp": "image-dark",
     "woff": "font-dark",
     "woff2": "font-dark",
@@ -156,6 +167,8 @@
     "zip": "archive-dark"
   },
   "fileNames": {
+    "browserconfig.xml": "config-dark",
+    "_config.yml": "config-dark",
     "copying": "license-dark",
     "copying.md": "license-dark",
 		"copying.txt": "license-dark",
@@ -165,6 +178,7 @@
     "license": "license-dark",
 		"license.md": "license-dark",
     "license.txt": "license-dark",
+    "manifest.json": "config-dark",
     "robots.txt": "robots-dark",
     "sitemap.txt": "robots-dark",
     "sitemap.xml": "robots-dark",
@@ -173,6 +187,7 @@
     "thirdpartynotices.txt": "license-dark"
   },
   "folderNames": {
+    ".config": "config-dark",
     ".git": "git-dark",
     ".github": "gh-dark",
     ".idea": "idea-dark",
@@ -181,6 +196,7 @@
     ".vscode": "vscode-dark"
   },
   "folderNamesExpanded": {
+    ".config": "config-dark",
     ".git": "git-dark",
     ".github": "gh-dark",
     ".idea": "idea-dark",
@@ -197,8 +213,10 @@
     "fileExtensions": {
       "7z": "archive-light",
       "bmp": "image-light",
+      "cfg": "config-light",
       "doc": "office-light",
       "docx": "office-light",
+      "editorconfig": "config-light",
       "eot": "font-light",
       "gif": "image-light",
       "gitattributes": "git-light",
@@ -208,6 +226,7 @@
       "go": "golang-light",
       "gz": "archive-light",
       "ico": "image-light",
+      "ini": "config-light",
       "jpg": "image-light",
       "jpeg": "image-light",
       "npmignore": "ignore-light",
@@ -222,6 +241,8 @@
       "ttf": "font-light",
       "vscodeignore": "ignore-light",
       "vsix": "vs-light",
+      "vsixmanifest": "config-light",
+      "webmanifest": "config-light",
       "webp": "image-light",
       "woff": "font-light",
       "woff2": "font-light",
@@ -230,6 +251,8 @@
       "zip": "archive-light"
     },
     "fileNames": {
+      "browserconfig.xml": "config-light",
+      "_config.yml": "config-light",
       "copying": "license-light",
       "copying.md": "license-light",
 		  "copying.txt": "license-light",
@@ -239,6 +262,7 @@
       "license": "license-light",
 		  "license.md": "license-light",
       "license.txt": "license-light",
+      "manifest.json": "config-light",
       "robots.txt": "robots-light",
       "sitemap.txt": "robots-light",
       "sitemap.xml": "robots-light",
@@ -247,6 +271,7 @@
       "thirdpartynotices.txt": "license-light"
     },
     "folderNames": {
+      ".config": "config-light",
       ".git": "git-light",
       ".github": "gh-light",
       ".idea": "idea-light",
@@ -255,6 +280,7 @@
       ".vscode": "vscode-light"
     },
     "folderNamesExpanded": {
+      ".config": "config-light",
       ".git": "git-light",
       ".github": "gh-light",
       ".idea": "idea-light",

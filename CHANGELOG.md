@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 -->
+### Added
+- File Icon: Config
+- Folder Icon: Config (`.config`)
+
 ## [0.3.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.3.0)
 > Release Date: 2022-07-22
 ### Added
