@@ -119,6 +119,12 @@
     },
     "config-light": {
       "iconPath": "../icons/config-light.svg"
+    },
+    "md-dark": {
+      "iconPath": "../icons/md-dark.svg"
+    },
+    "md-light": {
+      "iconPath": "../icons/md-light.svg"
     }
   },
   "file": "doc-dark",
@@ -130,6 +136,7 @@
     "7z": "archive-dark",
     "bmp": "image-dark",
     "cfg": "config-dark",
+    "conf": "config-dark",
     "doc": "office-dark",
     "docx": "office-dark",
     "editorconfig": "config-dark",
@@ -137,15 +144,12 @@
     "gif": "image-dark",
     "gitattributes": "git-dark",
     "gitconfig": "git-dark",
-    "gitignore": "ignore-dark",
     "gitmodules": "git-dark",
     "go": "golang-dark",
     "gz": "archive-dark",
     "ico": "image-dark",
-    "ini": "config-dark",
     "jpg": "image-dark",
     "jpeg": "image-dark",
-    "npmignore": "ignore-dark",
     "ooxml": "office-dark",
     "otf": "font-dark",
     "png": "image-dark",
@@ -155,7 +159,6 @@
     "sitemap": "robots-dark",
     "sln": "vs-dark",
     "ttf": "font-dark",
-    "vscodeignore": "ignore-dark",
     "vsix": "vs-dark",
     "vsixmanifest": "config-dark",
     "webmanifest": "config-dark",
@@ -204,6 +207,11 @@
     ".vs": "vs-dark",
     ".vscode": "vscode-dark"
   },
+  "languageIds": {
+    "ignore": "ignore-dark",
+    "ini": "config-dark",
+    "markdown": "md-dark"
+  },
   "light": {
     "file": "doc-light",
     "folder": "folder-light",
@@ -214,6 +222,7 @@
       "7z": "archive-light",
       "bmp": "image-light",
       "cfg": "config-light",
+      "conf": "config-light",
       "doc": "office-light",
       "docx": "office-light",
       "editorconfig": "config-light",
@@ -221,15 +230,12 @@
       "gif": "image-light",
       "gitattributes": "git-light",
       "gitconfig": "git-light",
-      "gitignore": "ignore-light",
       "gitmodules": "git-light",
       "go": "golang-light",
       "gz": "archive-light",
       "ico": "image-light",
-      "ini": "config-light",
       "jpg": "image-light",
       "jpeg": "image-light",
-      "npmignore": "ignore-light",
       "ooxml": "office-light",
       "otf": "font-light",
       "png": "image-light",
@@ -239,7 +245,6 @@
       "sitemap": "robots-light",
       "sln": "vs-light",
       "ttf": "font-light",
-      "vscodeignore": "ignore-light",
       "vsix": "vs-light",
       "vsixmanifest": "config-light",
       "webmanifest": "config-light",
@@ -287,6 +292,11 @@
       "node_modules": "nodejs-light",
       ".vs": "vs-light",
       ".vscode": "vscode-light"
+    },
+    "languageIds": {
+      "ignore": "ignore-light",
+      "ini": "config-light",
+      "markdown": "md-light"
     }
   },
   "highContrast": {},
