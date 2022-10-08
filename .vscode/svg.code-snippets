@@ -4,7 +4,7 @@
 		"prefix": ["svg11", "svg1.1"],
 		"body": [
 			"<svg version=\"1.1\"",
-			"\tviewbox=\"0 0 ${1:16} ${2:16}\" width=\"16\" height=\"16\"",
+			"\tviewbox=\"0 0 ${1:16} ${2:16}\" width=\"${1:16}\" height=\"${2:16}\"",
 			"\txmlns=\"http://www.w3.org/2000/svg\">",
 			"\t<title>${3:${TM_FILENAME_BASE/[\\-]/ /g}}</title>",
 			"</svg>"

@@ -125,6 +125,12 @@
     },
     "md-light": {
       "iconPath": "../icons/md-light.svg"
+    },
+    "trashcan-dark": {
+      "iconPath": "../icons/trashcan-dark.svg"
+    },
+    "trashcan-light": {
+      "iconPath": "../icons/trashcan-light.svg"
     }
   },
   "file": "doc-dark",
@@ -158,6 +164,7 @@
     "rar": "archive-dark",
     "sitemap": "robots-dark",
     "sln": "vs-dark",
+    "tmp": "trashcan-dark",
     "ttf": "font-dark",
     "vsix": "vs-dark",
     "vsixmanifest": "config-dark",
@@ -195,6 +202,8 @@
     ".github": "gh-dark",
     ".idea": "idea-dark",
     "node_modules": "nodejs-dark",
+    "temp": "trashcan-dark",
+    ".trash": "trashcan-dark",
     ".vs": "vs-dark",
     ".vscode": "vscode-dark"
   },
@@ -204,6 +213,8 @@
     ".github": "gh-dark",
     ".idea": "idea-dark",
     "node_modules": "nodejs-dark",
+    "temp": "trashcan-dark",
+    ".trash": "trashcan-dark",
     ".vs": "vs-dark",
     ".vscode": "vscode-dark"
   },
@@ -244,6 +255,7 @@
       "rar": "archive-light",
       "sitemap": "robots-light",
       "sln": "vs-light",
+      "tmp": "trashcan-light",
       "ttf": "font-light",
       "vsix": "vs-light",
       "vsixmanifest": "config-light",
@@ -281,6 +293,8 @@
       ".github": "gh-light",
       ".idea": "idea-light",
       "node_modules": "nodejs-light",
+      "temp": "trashcan-light",
+      ".trash": "trashcan-light",
       ".vs": "vs-light",
       ".vscode": "vscode-light"
     },
@@ -290,6 +304,8 @@
       ".github": "gh-light",
       ".idea": "idea-light",
       "node_modules": "nodejs-light",
+      "temp": "trashcan-light",
+      ".trash": "trashcan-light",
       ".vs": "vs-light",
       ".vscode": "vscode-light"
     },
