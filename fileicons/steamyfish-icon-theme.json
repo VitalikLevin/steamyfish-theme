@@ -131,6 +131,18 @@
     },
     "trashcan-light": {
       "iconPath": "../icons/trashcan-light.svg"
+    },
+    "squares-dark": {
+      "iconPath": "../icons/squares-dark.svg"
+    },
+    "squares-light": {
+      "iconPath": "../icons/squares-light.svg"
+    },
+    "xml-dark": {
+      "iconPath": "../icons/xml-dark.svg"
+    },
+    "xml-light": {
+      "iconPath": "../icons/xml-light.svg"
     }
   },
   "file": "doc-dark",
@@ -162,6 +174,7 @@
     "ppt": "office-dark",
     "pptx": "office-dark",
     "rar": "archive-dark",
+    "rtf": "office-dark",
     "sitemap": "robots-dark",
     "sln": "vs-dark",
     "tmp": "trashcan-dark",
@@ -202,6 +215,7 @@
     ".github": "gh-dark",
     ".idea": "idea-dark",
     "node_modules": "nodejs-dark",
+    "obj": "trashcan-dark",
     "temp": "trashcan-dark",
     ".trash": "trashcan-dark",
     ".vs": "vs-dark",
@@ -213,15 +227,18 @@
     ".github": "gh-dark",
     ".idea": "idea-dark",
     "node_modules": "nodejs-dark",
+    "obj": "trashcan-dark",
     "temp": "trashcan-dark",
     ".trash": "trashcan-dark",
     ".vs": "vs-dark",
     ".vscode": "vscode-dark"
   },
   "languageIds": {
+    "bat": "squares-dark",
     "ignore": "ignore-dark",
     "ini": "config-dark",
-    "markdown": "md-dark"
+    "markdown": "md-dark",
+    "xml": "xml-dark"
   },
   "light": {
     "file": "doc-light",
@@ -253,6 +270,7 @@
       "ppt": "office-light",
       "pptx": "office-light",
       "rar": "archive-light",
+      "rtf": "office-light",
       "sitemap": "robots-light",
       "sln": "vs-light",
       "tmp": "trashcan-light",
@@ -293,6 +311,7 @@
       ".github": "gh-light",
       ".idea": "idea-light",
       "node_modules": "nodejs-light",
+      "obj": "trashcan-light",
       "temp": "trashcan-light",
       ".trash": "trashcan-light",
       ".vs": "vs-light",
@@ -304,15 +323,18 @@
       ".github": "gh-light",
       ".idea": "idea-light",
       "node_modules": "nodejs-light",
+      "obj": "trashcan-light",
       "temp": "trashcan-light",
       ".trash": "trashcan-light",
       ".vs": "vs-light",
       ".vscode": "vscode-light"
     },
     "languageIds": {
+      "batch": "squares-light",
       "ignore": "ignore-light",
       "ini": "config-light",
-      "markdown": "md-light"
+      "markdown": "md-light",
+      "xml": "xml-light"
     }
   },
   "highContrast": {},

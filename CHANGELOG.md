@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 -->
+### Added
+- File Icons: Batch and XML
+- Icon for extension: `rtf`
+
 ## [0.5.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.5.0)
 > Release Date: 2022-10-08
 ### Added
