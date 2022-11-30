@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 -->
 ### Added
-- File Icons: Batch and XML
+- File Icons: Batch, Visual Basic and XML
 - Icon for extension: `rtf`
 
 ## [0.5.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.5.0)

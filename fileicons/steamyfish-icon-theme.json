@@ -163,7 +163,6 @@
     "gitattributes": "git-dark",
     "gitconfig": "git-dark",
     "gitmodules": "git-dark",
-    "go": "golang-dark",
     "gz": "archive-dark",
     "ico": "image-dark",
     "jpg": "image-dark",
@@ -235,9 +234,11 @@
   },
   "languageIds": {
     "bat": "squares-dark",
+    "go": "golang-dark",
     "ignore": "ignore-dark",
     "ini": "config-dark",
     "markdown": "md-dark",
+    "vb": "squares-dark",
     "xml": "xml-dark"
   },
   "light": {
@@ -259,7 +260,6 @@
       "gitattributes": "git-light",
       "gitconfig": "git-light",
       "gitmodules": "git-light",
-      "go": "golang-light",
       "gz": "archive-light",
       "ico": "image-light",
       "jpg": "image-light",
@@ -331,9 +331,11 @@
     },
     "languageIds": {
       "batch": "squares-light",
+      "go": "golang-light",
       "ignore": "ignore-light",
       "ini": "config-light",
       "markdown": "md-light",
+      "vb": "squares-light",
       "xml": "xml-light"
     }
   },
