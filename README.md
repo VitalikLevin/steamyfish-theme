@@ -11,7 +11,7 @@
   Steamy Fish
 </h1>
 <p align="center">
-  An icon theme that uses only two colors: Black and White
+  An icon theme that uses only two colors: `rgb(18, 18, 18)` and `rgb(244, 244, 244)`
 </p>
 <div align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish">
