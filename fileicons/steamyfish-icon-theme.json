@@ -184,6 +184,7 @@
     "webp": "image-dark",
     "woff": "font-dark",
     "woff2": "font-dark",
+    "xcf": "image-dark",
     "xls": "office-dark",
     "xlsx": "office-dark",
     "zip": "archive-dark"
@@ -234,6 +235,8 @@
   },
   "languageIds": {
     "bat": "squares-dark",
+    "git-commit": "git-dark",
+    "git-rebase": "git-dark",
     "go": "golang-dark",
     "ignore": "ignore-dark",
     "ini": "config-dark",
@@ -281,6 +284,7 @@
       "webp": "image-light",
       "woff": "font-light",
       "woff2": "font-light",
+      "xcf": "image-light",
       "xls": "office-light",
       "xlsx": "office-light",
       "zip": "archive-light"
@@ -331,6 +335,8 @@
     },
     "languageIds": {
       "batch": "squares-light",
+      "git-commit": "git-dark",
+      "git-rebase": "git-dark",
       "go": "golang-light",
       "ignore": "ignore-light",
       "ini": "config-light",

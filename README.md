@@ -15,5 +15,4 @@
 </p>
 
 ## Requirements
-
-*`Visual Studio Code`* version: `1.68.0` and above
+*`Visual Studio Code`* version: __1.68.0__ and above

@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - File Icons: Batch, Visual Basic and XML
 - Icon for extension: `rtf`
+- Icons for languages: `git-commit` and `git-rebase`
 
 ## [0.5.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.5.0)
 > Release Date: 2022-10-08
