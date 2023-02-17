@@ -143,6 +143,24 @@
     },
     "xml-light": {
       "iconPath": "../icons/xml-light.svg"
+    },
+    "ruby-dark": {
+      "iconPath": "../icons/ruby-dark.svg"
+    },
+    "ruby-light": {
+      "iconPath": "../icons/ruby-light.svg"
+    },
+    "html-dark": {
+      "iconPath": "../icons/html-dark.svg"
+    },
+    "html-light": {
+      "iconPath": "../icons/html-light.svg"
+    },
+    "svg-dark": {
+      "iconPath": "../icons/svg-dark.svg"
+    },
+    "svg-light": {
+      "iconPath": "../icons/svg-light.svg"
     }
   },
   "file": "doc-dark",
@@ -176,6 +194,7 @@
     "rtf": "office-dark",
     "sitemap": "robots-dark",
     "sln": "vs-dark",
+    "svg": "svg-dark",
     "tmp": "trashcan-dark",
     "ttf": "font-dark",
     "vsix": "vs-dark",
@@ -238,9 +257,11 @@
     "git-commit": "git-dark",
     "git-rebase": "git-dark",
     "go": "golang-dark",
+    "html": "html-dark",
     "ignore": "ignore-dark",
     "ini": "config-dark",
     "markdown": "md-dark",
+    "ruby": "ruby-dark",
     "vb": "squares-dark",
     "xml": "xml-dark"
   },
@@ -276,6 +297,7 @@
       "rtf": "office-light",
       "sitemap": "robots-light",
       "sln": "vs-light",
+      "svg": "svg-light",
       "tmp": "trashcan-light",
       "ttf": "font-light",
       "vsix": "vs-light",
@@ -335,12 +357,14 @@
     },
     "languageIds": {
       "batch": "squares-light",
-      "git-commit": "git-dark",
-      "git-rebase": "git-dark",
+      "git-commit": "git-light",
+      "git-rebase": "git-light",
       "go": "golang-light",
+      "html": "html-light",
       "ignore": "ignore-light",
       "ini": "config-light",
       "markdown": "md-light",
+      "ruby": "ruby-light",
       "vb": "squares-light",
       "xml": "xml-light"
     }

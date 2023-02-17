@@ -9,24 +9,24 @@
 			"\t<title>${3:${TM_FILENAME_BASE/[\\-]/ /g}}</title>",
 			"</svg>"
 		],
-		"description": "Doctype for .svg files"
+		"description": "Doctype for `.svg` files"
 	},
 	"Fill Property": {
 		"scope": "xml",
 		"prefix": ["fill", "svgfill"],
 		"body": "fill=\"${1|none,#121212,#f4f4f4|}\"",
-		"description": "Fill Property for a part of a image"
+		"description": "`fill` Property for a part of a image"
 	},
 	"Stroke Property": {
 		"scope": "xml",
 		"prefix": ["stroke", "svgstroke"],
-		"body": "stroke=\"${1|#121212,#f4f4f4|}\"",
-		"description": "Stroke Property for an element"
+		"body": "stroke=\"${1|none,#121212,#f4f4f4|}\"",
+		"description": "`stroke` Property for an element"
 	},
 	"Stroke Width": {
 		"scope": "xml",
 		"prefix": ["strkwidth", "strokewidth"],
 		"body": "stroke-width=\"${1:1}\"",
-		"description": "Stroke-Width Property for a figure"
+		"description": "`stroke-width` Property for a figure"
 	}
 }
