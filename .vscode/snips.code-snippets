@@ -1,4 +1,14 @@
 {
+	"New Icon": {
+		"scope": "json,jsonc",
+		"prefix": ["entry", "icon"],
+		"body": [
+			"\"${1:icon-name}-${2|dark,light|}\": {",
+			"\t\"iconPath\": \"../icons/${1:icon-name}-${2|dark,light|}.svg\"",
+			"}"
+		],
+		"description": "New Entry in `iconDefinitions`"
+	},
 	"SVG Element": {
 		"scope": "xml",
 		"prefix": ["svg11", "svg1.1"],

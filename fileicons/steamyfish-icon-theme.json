@@ -161,6 +161,48 @@
     },
     "svg-light": {
       "iconPath": "../icons/svg-light.svg"
+    },
+    "c-dark": {
+      "iconPath": "../icons/c-dark.svg"
+    },
+    "c-light": {
+      "iconPath": "../icons/c-light.svg"
+    },
+    "cpp-dark": {
+      "iconPath": "../icons/cpp-dark.svg"
+    },
+    "cpp-light": {
+      "iconPath": "../icons/cpp-light.svg"
+    },
+    "csharp-dark": {
+      "iconPath": "../icons/csharp-dark.svg"
+    },
+    "csharp-light": {
+      "iconPath": "../icons/csharp-light.svg"
+    },
+    "cuda-cpp-dark": {
+      "iconPath": "../icons/cuda-cpp-dark.svg"
+    },
+    "cuda-cpp-light": {
+      "iconPath": "../icons/cuda-cpp-light.svg"
+    },
+    "js-dark": {
+      "iconPath": "../icons/js-dark.svg"
+    },
+    "js-light": {
+      "iconPath": "../icons/js-light.svg"
+    },
+    "reactjs-dark": {
+      "iconPath": "../icons/reactjs-dark.svg"
+    },
+    "reactjs-light": {
+      "iconPath": "../icons/reactjs-light.svg"
+    },
+    "ts-dark": {
+      "iconPath": "../icons/ts-dark.svg"
+    },
+    "ts-light": {
+      "iconPath": "../icons/ts-light.svg"
     }
   },
   "file": "doc-dark",
@@ -254,14 +296,21 @@
   },
   "languageIds": {
     "bat": "squares-dark",
+    "c": "c-dark",
+    "cpp": "cpp-dark",
+    "csharp": "csharp-dark",
+    "cuda-cpp": "cuda-cpp-dark",
     "git-commit": "git-dark",
     "git-rebase": "git-dark",
     "go": "golang-dark",
     "html": "html-dark",
     "ignore": "ignore-dark",
     "ini": "config-dark",
+    "javascript": "js-dark",
+    "javascriptreact": "reactjs-dark",
     "markdown": "md-dark",
     "ruby": "ruby-dark",
+    "typescript": "ts-dark",
     "vb": "squares-dark",
     "xml": "xml-dark"
   },
@@ -357,14 +406,21 @@
     },
     "languageIds": {
       "batch": "squares-light",
+      "c": "c-light",
+      "cpp": "cpp-light",
+      "csharp": "csharp-light",
+      "cuda-cpp": "cuda-cpp-light",
       "git-commit": "git-light",
       "git-rebase": "git-light",
       "go": "golang-light",
       "html": "html-light",
       "ignore": "ignore-light",
       "ini": "config-light",
+      "javascript": "js-light",
+      "javascriptreact": "reactjs-light",
       "markdown": "md-light",
       "ruby": "ruby-light",
+      "typescript": "ts-dark",
       "vb": "squares-light",
       "xml": "xml-light"
     }

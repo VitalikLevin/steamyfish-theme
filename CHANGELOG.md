@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 -->
+### Added
+- File Icons: C, C++ (cpp), C# (csharp), CUDA C++, JavaScript, React.js and TypeScript
+
 ## [0.6.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.6.0)
 > Release Date: 2023-02-17
 ### Added
