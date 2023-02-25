@@ -203,6 +203,24 @@
     },
     "ts-light": {
       "iconPath": "../icons/ts-light.svg"
+    },
+    "python-dark": {
+      "iconPath": "../icons/python-dark.svg"
+    },
+    "python-light": {
+      "iconPath": "../icons/python-light.svg"
+    },
+    "objc-dark": {
+      "iconPath": "../icons/objc-dark.svg"
+    },
+    "objc-light": {
+      "iconPath": "../icons/objc-light.svg"
+    },
+    "shell-dark": {
+      "iconPath": "../icons/shell-dark.svg"
+    },
+    "shell-light": {
+      "iconPath": "../icons/shell-light.svg"
     }
   },
   "file": "doc-dark",
@@ -309,7 +327,12 @@
     "javascript": "js-dark",
     "javascriptreact": "reactjs-dark",
     "markdown": "md-dark",
+    "objective-c": "objc-dark",
+    "pip-requirements": "python-dark",
+    "python": "python-dark",
     "ruby": "ruby-dark",
+    "shellscript": "shell-dark",
+    "toml": "config-dark",
     "typescript": "ts-dark",
     "vb": "squares-dark",
     "xml": "xml-dark"
@@ -419,8 +442,13 @@
       "javascript": "js-light",
       "javascriptreact": "reactjs-light",
       "markdown": "md-light",
+      "objective-c": "objc-light",
+      "pip-requirements": "python-light",
+      "python": "python-light",
       "ruby": "ruby-light",
-      "typescript": "ts-dark",
+      "shellscript": "shell-light",
+      "toml": "config-light",
+      "typescript": "ts-light",
       "vb": "squares-light",
       "xml": "xml-light"
     }
