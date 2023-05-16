@@ -4,16 +4,19 @@ on:
     branches:
       "master"
 jobs:
-  - name: Set up Node
+  firstly:
+    name: Set up Node
     runs-on: ubuntu-latest
     uses: actions/setup-node@v3
     with:
       node-version: 16.15.0
     run: npm install @vscode/vsce
-  - title: Package this masterpiece
+  secondly:
+    title: Package this masterpiece
     id: masterpiece
     run: vsce package --pre-release -o "steamyfish-beta.vsix"
-  - name: Expose as artifact
+  thirdly:
+    name: Expose as artifact
     uses: actions/upload-artifact@v3
     with:
       name: ${{ steps.masterpiece.outputs.filePath }}
