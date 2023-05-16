@@ -8,13 +8,13 @@ jobs:
     name: Making package...
     runs-on: ubuntu-latest
     steps:
-      - title: Set Up Node
+      - name: Set Up Node
         uses: actions/setup-node@v3
         with:
           node-version: 16.15.0
-      - title: Install `@vscode/vsce`
+      - name: Install `@vscode/vsce`
         run: npm install @vscode/vsce
-      - title: Using `vsce`
+      - name: Using `vsce`
         id: masterpiece
         run: vsce package --pre-release -o "steamyfish-beta.vsix"
       - name: Expose as artifact
