@@ -12,6 +12,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.15.0
+      - title: Install `@vscode/vsce`
         run: npm install @vscode/vsce
       - title: Using `vsce`
         id: masterpiece
