@@ -4,21 +4,20 @@ on:
     branches:
       "master"
 jobs:
-  firstly:
-    name: Set up Node
+  package:
+    name: Making package...
     runs-on: ubuntu-latest
-    uses: actions/setup-node@v3
-    with:
-      node-version: 16.15.0
-    run: npm install @vscode/vsce
-  secondly:
-    title: Package this masterpiece
-    id: masterpiece
-    run: vsce package --pre-release -o "steamyfish-beta.vsix"
-  thirdly:
-    name: Expose as artifact
-    uses: actions/upload-artifact@v3
-    with:
-      name: ${{ steps.masterpiece.outputs.filePath }}
-      path: ${{ steps.masterpiece.outputs.filePath }}
-      retention-days: 14
+    - title: Set Up Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.15.0
+      run: npm install @vscode/vsce
+    - title: Using `vsce`
+      id: masterpiece
+      run: vsce package --pre-release -o "steamyfish-beta.vsix"
+    - name: Expose as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ steps.masterpiece.outputs.filePath }}
+        path: ${{ steps.masterpiece.outputs.filePath }}
+        retention-days: 14
