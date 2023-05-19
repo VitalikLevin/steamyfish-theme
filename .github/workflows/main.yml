@@ -8,14 +8,14 @@ jobs:
     name: Making package...
     runs-on: ubuntu-latest
     steps:
+      - name: \*folder/folder -> \*folder
+        run: cd ..
       - name: Set Up Node
         uses: actions/setup-node@v3
         with:
           node-version: 16.15.0
       - name: Install `@vscode/vsce`
         run: npm install -g @vscode/vsce
-      - name: NW-CARES-ABOUT-THIS-STEP
-        run: cd ..
       - name: Using `vsce`
         id: masterpiece
         run: vsce package --pre-release -o "steamyfish-beta.vsix"
