@@ -12,8 +12,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.15.0
+          cache: "npm"
       - name: Install `@vscode/vsce`
-        run: npm install @vscode/vsce
+        run: npm install -g @vscode/vsce
       - name: Using `vsce`
         id: masterpiece
         run: vsce package --pre-release -o "steamyfish-beta.vsix"
