@@ -14,11 +14,13 @@ jobs:
           node-version: 16.15.0
       - name: Install `@vscode/vsce`
         run: npm install -g @vscode/vsce
+      - name: Go to previous level
+        run: cd ..
       - name: Where am I?
         run: echo "$(pwd)"
       - name: Using `vsce`
         id: masterpiece
-        run: vsce package --pre-release
+        run: vsce package
       - name: Expose as artifact
         uses: actions/upload-artifact@v3
         with:
