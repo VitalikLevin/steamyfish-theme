@@ -14,10 +14,10 @@ jobs:
           node-version: 16.15.0
       - name: Install `@vscode/vsce`
         run: npm install -g @vscode/vsce
-      - name: Go to previous level
-        run: cd ..
-      - name: Where am I?
-        run: echo "$(pwd)"
+      - name: Clone this repository
+        run: git clone https://github.com/VitalikLevin/steamyfish-theme.git
+      - name: What files are there?
+        run: ls
       - name: Using `vsce`
         id: masterpiece
         run: vsce package
