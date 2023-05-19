@@ -6,7 +6,7 @@ on:
 jobs:
   package:
     name: Making package...
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Set Up Node
         uses: actions/setup-node@v3
