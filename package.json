@@ -8,7 +8,7 @@
     "email": "network_worms@mail.ru",
     "url": "https://vitaliklevin.github.io/"
   },
-  "version": "0.6.0",
+  "version": "0.7.0",
   "license": "MIT",
   "main": "./",
   "categories": ["Themes"],
@@ -17,7 +17,7 @@
     "theme",
     "monochrome",
     "icon-theme",
-    "steamyfish"
+    "fish"
   ],
   "icon": "assets/icon-white-border.png",
   "galleryBanner": {

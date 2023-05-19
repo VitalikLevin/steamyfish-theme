@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 -->
+## [0.7.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.7.0)
+> Release Date: 2023-05-19
 ### Added
 - File Icons: C, C++ (cpp), C# (csharp), CUDA C++, JavaScript, Objective-C, Python, React.js, Shell and TypeScript
 - Icons for languages: `pip-requirements` and `toml`

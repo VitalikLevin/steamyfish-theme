@@ -14,7 +14,7 @@
   An icon theme that uses only two colors: Black and White
 </h4>
 <div align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish"><img src="https://vsmarketplacebadges.dev/version-short/networkworms.steamyfish.svg?style=for-the-badge&label=Version" alt="Version"></a>
+  <a href="https://vitaliklevin.github.io/exts/steamyfish/"><img src="https://vsmarketplacebadges.dev/version-short/networkworms.steamyfish.svg?style=for-the-badge&label=Version" alt="Version"></a>
   <a href="https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish"><img src="https://vsmarketplacebadges.dev/installs-short/networkworms.steamyfish.svg?style=for-the-badge&label=Installs" alt="Installs"></a>
   <a href="https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish"><img src="https://vsmarketplacebadges.dev/downloads-short/networkworms.steamyfish.svg?style=for-the-badge&label=Downloads" alt="Downloads"></a>
 </div>
