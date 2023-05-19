@@ -8,7 +8,7 @@ jobs:
     name: Making package...
     runs-on: ubuntu-latest
     steps:
-      - name: \*folder/folder -> \*folder
+      - name: folder/folder -> folder
         run: cd ..
       - name: Set Up Node
         uses: actions/setup-node@v3
@@ -16,9 +16,11 @@ jobs:
           node-version: 16.15.0
       - name: Install `@vscode/vsce`
         run: npm install -g @vscode/vsce
+      - name: Where am I?
+        run: echo "$(pwd)"
       - name: Using `vsce`
         id: masterpiece
-        run: vsce package --pre-release -o "steamyfish-beta.vsix"
+        run: vsce package --pre-release
       - name: Expose as artifact
         uses: actions/upload-artifact@v3
         with:
