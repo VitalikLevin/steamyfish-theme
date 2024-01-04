@@ -221,6 +221,18 @@
     },
     "shell-light": {
       "iconPath": "../icons/shell-light.svg"
+    },
+    "swift-dark": {
+      "iconPath": "../icons/swift-dark.svg"
+    },
+    "swift-light": {
+      "iconPath": "../icons/swift-light.svg"
+    },
+    "reactts-dark": {
+      "iconPath": "../icons/reactts-dark.svg"
+    },
+    "reactts-light": {
+      "iconPath": "../icons/reactts-light.svg"
     }
   },
   "file": "doc-dark",
@@ -334,8 +346,10 @@
     "ruby": "ruby-dark",
     "shellscript": "shell-dark",
     "snippets": "vscode-dark",
+    "swift": "swift-dark",
     "toml": "config-dark",
     "typescript": "ts-dark",
+    "typescriptreact": "reactts-dark",
     "vb": "squares-dark",
     "xml": "xml-dark"
   },
@@ -451,8 +465,10 @@
       "ruby": "ruby-light",
       "shellscript": "shell-light",
       "snippets": "vscode-light",
+      "swift": "swift-light",
       "toml": "config-light",
       "typescript": "ts-light",
+      "typescriptreact": "reactts-light",
       "vb": "squares-light",
       "xml": "xml-light"
     }

@@ -1,0 +1,21 @@
+name: 🎲 Make beta build
+on:
+  push:
+    branches: [ "master" ]
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        name: Download files
+      - uses: lannonbr/vsce-action@3.0.0
+        with:
+          args: "package --pre-release -o "steamyfish-beta.vsix" -p $VSCE_TOKEN"
+        env:
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+      - name: Upload package
+        uses: actions/upload-artifact@v3
+        with:
+          name: steamyfish-beta
+          path: steamyfish-beta.vsix
+          retention-days: 16

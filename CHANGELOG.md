@@ -2,7 +2,7 @@
 
 All notable changes to repository "steamyfish-theme" will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 -->
 ### Added
-- Icons for languages: `github-action-workflow` and `snippets` (VS Code Snippets)
+- Icons for languages: `github-action-workflow`, `snippets` (VS Code Snippets), Swift and `typescriptreact`
 
 ## [0.7.0](https://github.com/VitalikLevin/steamyfish-theme/releases/tag/v0.7.0)
 > Release Date: 2023-05-19
