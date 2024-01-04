@@ -10,9 +10,7 @@ jobs:
         name: Download files
       - uses: lannonbr/vsce-action@3.0.0
         with:
-          args: "package --pre-release -o 'steamyfish-beta.vsix' -p $VSCE_TOKEN"
-        env:
-          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+          args: "package --pre-release -o 'steamyfish-beta.vsix'"
       - name: Upload package
         uses: actions/upload-artifact@v3
         with:
