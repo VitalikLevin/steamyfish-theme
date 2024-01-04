@@ -13,10 +13,11 @@
 <h4 align="center">
   An icon theme that uses only two colors: Black and White
 </h4>
-
-[![Version](https://vsmarketplacebadges.dev/version-short/networkworms.steamyfish.svg?style=for-the-badge&label=Version)](https://vitaliklevin.github.io/exts/steamyfish/)
-[![Installs](https://vsmarketplacebadges.dev/installs-short/networkworms.steamyfish.svg?style=for-the-badge&label=Installs)](https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish)
-![Downloads](https://vsmarketplacebadges.dev/downloads-short/networkworms.steamyfish.svg?style=for-the-badge&label=Downloads)
+<div align="center">
+  <a href="https://vitaliklevin.github.io/exts/steamyfish/"><img src="https://vsmarketplacebadges.dev/version-short/networkworms.steamyfish.svg?style=for-the-badge&label=Version" alt="Version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish"><img src="https://vsmarketplacebadges.dev/installs-short/networkworms.steamyfish.svg?style=for-the-badge&label=Installs" alt="Installs"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=networkworms.steamyfish"><img src="https://vsmarketplacebadges.dev/downloads-short/networkworms.steamyfish.svg?style=for-the-badge&label=Downloads" alt="Downloads"></a>
+</div>
 
 ## Requirements
 *`Visual Studio Code`* version: __1.68.0__ and above

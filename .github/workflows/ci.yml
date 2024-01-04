@@ -7,12 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: lannonbr/vsce-action@3.0.0
+      - uses: actions/setup-node@v4
         with:
-          args: "package --pre-release -o 'steamyfish-beta.vsix'"
+          node-version: 16
+      - name: Install `vsce`
+        run: "npm install -g vsce"
+      - name: Run `vsce`
+        run: "vsce package --pre-release -o 'steamyfish-beta.vsix'"
       - name: Upload package
         uses: actions/upload-artifact@v3
         with:
           name: steamyfish-beta
           path: steamyfish-beta.vsix
-          retention-days: 16
+          retention-days: 14
