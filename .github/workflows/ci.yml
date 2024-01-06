@@ -7,16 +7,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 16
-      - name: Install `vsce`
-        run: "npm install -g vsce"
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.8"
+      - name: Install `vsce` and clean README
+        run: |
+          mkdir out
+          python ".github/workflows/cleanreadme.py"
+          npm install -g @vscode/vsce
       - name: Run `vsce`
-        run: "vsce package --pre-release -o 'steamyfish-beta.vsix'"
+        run: "vsce package --pre-release -o 'out/steamyfish-beta.vsix'"
       - name: Upload package
         uses: actions/upload-artifact@v3
         with:
           name: steamyfish-beta
-          path: steamyfish-beta.vsix
+          path: out/*
           retention-days: 14
